@@ -1,60 +1,41 @@
-/*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
- * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
- * 
- * Bu program kullanicidan ogrenci bilgilerini alir ve
- * duzenli bir formatta ekrana yazdirir.
- * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz
+ /*
+ * Ad Soyad: [Gürkan Özkan]
+ * Ogrenci No: [250542023]
+ * Tarih: [05.05.2025]
+ * Aciklama: [Görev-1 Öğrenci Bilgi Sistemi]
  */
 
 import java.util.Scanner;
 
-public class OgrenciBilgi {
+public class OgrenciBilgiSistemi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
-        
-        // Kullanicidan bilgileri alin
-        System.out.println("=== OGRENCI BILGI SISTEMI ===");
-        System.out.println();
-        
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
+        Scanner input = new Scanner(System.in);
 
-        
-        
-        // Scanner'i kapatin (önemli pratik)
-        
+        System.out.println("=== OGRENCI BILGI SISTEMI ===");
+
+        System.out.print("Adınız ve Soyadınızı Girin: ");
+        String adSoyad = input.nextLine();
+
+        System.out.print("Öğrenci Numaranızı girin: ");
+        int ogrenciNo = input.nextInt();
+
+        System.out.print("Yaşınızı girin: ");
+        int yas = input.nextInt();
+
+        System.out.print("GPA'nızı girin(00,00-04,00): ");
+        double gpa = input.nextDouble();
+
+        input.nextLine();
+        System.out.print("Durum: ");
+        String durum = input.nextLine();
+
+        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
+        System.out.println("Ad Soyad: " + adSoyad);
+        System.out.println("Ogrenci No: " + ogrenciNo);
+        System.out.println("Yas: " + yas);
+        System.out.printf("GPA: %.2f\n", gpa);
+        System.out.println("Durum: " + durum);
+
+        input.close();
     }
 }
