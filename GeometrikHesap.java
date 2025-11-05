@@ -2,7 +2,7 @@
  * Ad Soyad: [Gürkan Özkan]
  * Ogrenci No: [250542023]
  * Tarih: [05.11.2025]
- * Aciklama: [Geometrik Hesaplama]
+ * Aciklama: [Görev-2 Geometrik Hesaplama]
  */
 
 import java.util.Scanner;
