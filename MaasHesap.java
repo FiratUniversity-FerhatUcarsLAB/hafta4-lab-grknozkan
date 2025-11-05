@@ -2,7 +2,7 @@
  * Ad Soyad: [Gürkan Özkan]
  * Ogrenci No: [250542023]
  * Tarih: [05.05.2025]
- * Aciklama: [Maaş Hesaplama]
+ * Aciklama: [Görev-3 Maaş Hesaplama]
  */
 
 import java.util.Scanner;
